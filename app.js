@@ -12,7 +12,7 @@ var logger = require('morgan');
 
 // my code starts here:
 // if (process.env.NODE_ENV !== "production") {
-  require('dotenv').config()
+//   require('dotenv').config()
 // }
 
 var express = require('express');
@@ -20,17 +20,16 @@ var cors = require('cors');
 var app = express();
 
 app.use(cors());
-app.listen(3000, () => console.log('ServerStarted'));
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => console.log('ServerStarted'));
 
 // connect to mongoDB
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 
 // fetch url for database from .env file:
-// mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true }) 
-mongoose.connect(process.env.MONGODB_URL, { 
-  useNewUrlParser: true, 
-  useUnifiedTopology: true })
+//mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true }) 
+mongoose.connect(process.env.DATABASE, { useNewUrlParser: true, useUnifiedTopology: true })
 const db = mongoose.connection
 
 // create events to ensure database connected correctly

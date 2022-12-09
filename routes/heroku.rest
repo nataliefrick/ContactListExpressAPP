@@ -1,9 +1,4 @@
-GET mongodb+srv://natalie:nataliesalomons@cluster0.umewncr.mongodb.net/projectDB
-
-###
-
-
-GET http://localhost:3000/contacts
+GET https://fierce-oasis-10325.herokuapp.com/
 
 ###
 
@@ -14,13 +9,13 @@ GET http://localhost:3000/contacts/6391ef1c995cf46c35860b9a
 POST http://localhost:3000/contacts
 Content-Type: application/json
 
-{
-    "contactName": "Micke Frick",
-    "contactEmail": "micke@gmail.com",
-    "contactTelephone": "070 123 45 67",
-    "contactAddress": "Eriksbergsvägen 7 83143 Östersund",
-    "contactGender": "Male"
-  }
+{ 
+    "contactName" : "Natalie",
+    "contactEmail" : "natalie.salomons@gmail.com",
+    "contactTelephone" : "0730567967",
+    "contactAddress" : "Sadelstigen 4",
+    "contactGender" : "Female"
+}
 
 ###
 

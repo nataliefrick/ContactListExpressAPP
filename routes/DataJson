@@ -1,0 +1,58 @@
+[
+  {
+    "contactName": "Natalie Salomons",
+    "contactEmail": "natalie.salomons@gmail.com",
+    "contactTelephone": "0730 54 38 29",
+    "contactAddress": "Vägvägen 43 83139 Östersund",
+    "contactGender": "Female"
+  },
+  {
+    "contactName": "Micke Frick",
+    "contactEmail": "micke@gmail.com",
+    "contactTelephone": "070 123 45 67",
+    "contactAddress": "Eriksbergsvägen 7 83143 Östersund",
+    "contactGender": "Male"
+  },
+  {
+    "contactName": "Jens Segelsbo",
+    "contactEmail": "jenssegelsbo@gmail.com",
+    "contactTelephone": "070 234 56 74",
+    "contactAddress": "Lundsjön 123 82138 Krokom",
+    "contactGender": "Male"
+  },
+  {
+    "contactName": "Eric Hermansson",
+    "contactEmail": "eric@gmail.com",
+    "contactTelephone": "080 234 57 83",
+    "contactAddress": "Johanneshov 23 873 23 Stockholm",
+    "contactGender": "Male"
+  },
+  {
+    "contactName": "Nina Plesner",
+    "contactEmail": "nina@gmail.com",
+    "contactTelephone": "0790 48 32 12",
+    "contactAddress": "Krokomsväg 123 843 27 Krokom",
+    "contactGender": "Female"
+  },
+  {
+    "contactName": "Samual Persson",
+    "contactEmail": "persson@gmail.com",
+    "contactTelephone": "0790 34 28 19",
+    "contactAddress": "Sadelstign 4 831 43 Östersund",
+    "contactGender": "Male"
+  },
+  {
+    "contactName": "Maria Frick",
+    "contactEmail": "maria@gmail.com",
+    "contactTelephone": "0730 67 84 53",
+    "contactAddress": "Vegaavägen 4 847 34 Höganäs",
+    "contactGender": "Female"
+  },
+  {
+    "contactName": "Jean Salomons",
+    "contactEmail": "salomons@gmail.com",
+    "contactTelephone": "063 12 43 23",
+    "contactAddress": "Prästgatan 54 83131 Östersund",
+    "contactGender": "Female"
+  }
+]

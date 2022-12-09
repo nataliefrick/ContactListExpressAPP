@@ -1,0 +1,36 @@
+GET http://localhost:3000/contacts
+
+###
+
+GET http://localhost:3000/contacts/6391ef1c995cf46c35860b9a
+
+###
+
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{ 
+    "contactName" : "Natalie",
+    "contactEmail" : "natalie.salomons@gmail.com",
+    "contactTelephone" : "0730567967",
+    "contactAddress" : "Sadelstigen 4",
+    "contactGender" : "Female"
+}
+
+###
+
+
+DELETE http://localhost:3000/contacts/
+
+
+###
+
+
+PATCH http://localhost:3000/contacts/6391ef1c995cf46c35860b9a
+Content-Type: application/json
+
+{ 
+
+    "contactEmail" : "natalie@gmail.com"
+
+}

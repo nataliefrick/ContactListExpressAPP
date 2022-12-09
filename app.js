@@ -1,18 +1,11 @@
 // automatic code generated from express
 var createError = require('http-errors');
 var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
 
-// app.use(logger('dev'));
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: false }));
-// app.use(cookieParser());
-// app.use(express.static(path.join(__dirname, 'public')));
 
 // my code starts here:
 // if (process.env.NODE_ENV !== "production") {
-//   require('dotenv').config()
+require('dotenv').config()
 // }
 
 var express = require('express');
@@ -21,6 +14,7 @@ var app = express();
 
 app.use(cors());
 const PORT = process.env.PORT || 3000
+
 app.listen(PORT, () => console.log('ServerStarted'));
 
 // connect to mongoDB
@@ -29,7 +23,7 @@ mongoose.set('strictQuery', false);
 
 // fetch url for database from .env file:
 //mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true }) 
-mongoose.connect(process.env.DATABASE, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
 const db = mongoose.connection
 
 // create events to ensure database connected correctly

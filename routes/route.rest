@@ -1,8 +1,3 @@
-GET mongodb+srv://natalie:nataliesalomons@cluster0.umewncr.mongodb.net/projectDB
-
-###
-
-
 GET http://localhost:3000/contacts
 
 ###

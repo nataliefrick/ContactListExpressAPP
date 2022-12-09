@@ -4,9 +4,9 @@ var path = require('path');
 
 
 // my code starts here:
-// if (process.env.NODE_ENV !== "production") {
+if (process.env.NODE_ENV !== "production") {
 require('dotenv').config()
-// }
+ }
 
 var express = require('express');
 var cors = require('cors');
